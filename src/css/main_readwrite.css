@@ -1,0 +1,203 @@
+.mui-bar {
+	height: 3em;
+	font-weight: bolder;
+	background-color: #258AFE;
+	font-family: "黑体";
+	display: none;
+}
+
+.mui-title {
+	color: #fff;
+}
+
+.mui-content {
+	/*margin-top: 63px;*/
+	background-color: #FFF;
+}
+
+.head-mode {
+	width: 90%;
+	position: absolute;
+	top: 4em;
+	left: 5%;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 7px;
+}
+
+.head-mode div {
+	display: inline-block;
+	width: 48%;
+	text-align: center;
+}
+
+.head-mode .mui-icon {
+	font-size: .8em !important;
+	margin-right: -5px !important;
+}
+
+.head-mode span {
+	font-size: .8em;
+}
+
+.head-mode-right {
+	border-left: 1px solid #fff;
+}
+
+.first-grid {
+	background: url(../img/setting-back.png);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 18em;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.status-mode {
+	padding-top: 1.3em;
+	font-size: 1.3em;
+}
+
+.taiyang {
+	margin: .3em 0 .3em;
+	font-size: 3em !important;
+}
+
+.number-temp {
+	font-size: 3em !important;
+	margin: .5em 0 .5em;
+}
+.ph{
+	margin: 2em 0 .3em;
+}
+
+.status {
+	position: absolute;
+	bottom: 22px;
+	left: 55px;
+	text-align: left;
+	font-size: .7em;
+}
+
+.sibian span {
+	font-size: 1.3em !important;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 4px;
+}
+
+.icon-locked {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	color:#258AFE;
+}
+.icon-unlocked {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+}
+
+.icon-fenxiang1 {
+	position: absolute;
+	top: 25px;
+	right: 15px;
+}
+
+.icon-pump {
+	position: absolute;
+	bottom: 25px;
+	left: 15px;
+}
+
+.shoudong {
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	bottom: 25px;
+	right: 10px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	line-height: 1.2em;
+	padding: 3px;
+	font-size: .6em;
+}
+
+.light-box {
+	width: 100%;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.light-box h4 {
+	margin-left: .5em;
+	margin-bottom: 1em;
+}
+
+.light-box-bottom {
+	padding-top: 10px;
+	border-top: 2px solid #BFBFBF;
+}
+
+.range {
+	width: 60%;
+	color: #007AFF;
+	text-align: center;
+	display: inline-block;
+}
+
+.range .icon-taiyang1 {
+	font-size: 1.5em !important;
+}
+
+.range h5 {
+	color: #007AFF;
+	font-size: 1.2em;
+}
+
+.comfort {
+	margin-top: .5em;
+}
+
+.inline-range-val {
+	font-size: .8em;
+	margin-left: 1em;
+}
+
+.mui-input-row label {
+	padding: 6px 15px;
+}
+
+.time {
+	width: 38%;
+	float: right;
+}
+
+
+/*.time button{
+				height: 20px;
+				line-height: 0px;
+				margin: 5px 0;
+				color: #9F9F9F;
+			}
+			.time span{
+				color: #268AFF;
+				margin-left: 5px;
+			}*/
+
+.time .mui-switch {
+	margin: 20px auto;
+}
+
+/*对滑块和逻辑按钮的修饰*/
+.gray {
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+}
+
+.mui-input-range input[type='range']::-webkit-slider-thumb
+{
+    width: 18px;
+    height: 18px;
+}
